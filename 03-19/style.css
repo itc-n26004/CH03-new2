@@ -1,0 +1,14 @@
+/* 親要素（「box」を横並び・中央配置にするため） */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* 1〜3. 「box」クラスの要素に対するスタイル */
+.box {
+  background-color: #aef; /* 1. 背景色 */
+  width: 400px;           /* 2. 横幅 */
+  padding: 2rem;          /* 3. 内側の余白 */
+  margin: 1rem;           /* 3. 外側の余白 */
+}
+
